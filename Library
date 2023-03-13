@@ -105,8 +105,8 @@ local defaulttheme = {
     DarkText = Color3.fromRGB(170,170,170);
     BrightText = Color3.fromRGB(145,145,145);
     Font = "Gotham";
-    SoundVolume = 0.5
-    HideKey = "LeftAlt"
+    SoundVolume = 0.5;
+    HideKey = "v"
 }
 
 local Library = {
@@ -120,6 +120,7 @@ local screeng = make("ScreenGui",{
     IgnoreGuiInset = true
 })
 
+syn.protect_gui(screeng)
 
 
 
@@ -158,7 +159,7 @@ function Library.Main(text : string)
         Position = UDim2.new(1,-55,0,0);
         BorderSizePixel = 0;
         BackgroundTransparency = 1;
-        Image = "rbxassetid://10587654910";
+        Image = "rbxassetid://12173436761";
         ImageTransparency = 0;
         ImageColor3 = Color3.fromRGB(255,255,255);
         ScaleType = Enum.ScaleType["Crop"];
@@ -196,7 +197,7 @@ function Library.Main(text : string)
             Position = UDim2.new(0.5,0,0.5,0);
             BorderSizePixel = 0;
             BackgroundTransparency = 1;
-            Image = "rbxassetid://10562470318";
+            Image = "rbxassetid://12173436761";
             ImageTransparency = 1;
             ImageColor3 = Color3.fromRGB(255,255,255);
             ScaleType = Enum.ScaleType["Crop"];
@@ -263,8 +264,8 @@ function Library.Main(text : string)
     OnEffect.Name = "OnEffect"
     OnEffect.Parent = Main
     OnEffect.Volume = Library["theme"]["SoundVolume"]
-    OnEffect.SoundId = "http://www.roblox.com/asset/?id=8745692251" 
-    OnEffect:Play() 
+    OnEffect.SoundId = "http://www.roblox.com/asset/?id=3779053277" 
+    OnEffect:Play(1) 
 
 
     local Pages = make("Frame",{
@@ -273,7 +274,7 @@ function Library.Main(text : string)
         Position = UDim2.new(0,15,0,65);
         Size = UDim2.new(0.48,0,1,-75);
         BorderSizePixel = 0;
-        BackgroundColor3 = Color3.fromRGB(195, 195, 250);
+        BackgroundColor3 = Color3.fromRGB(128,232,222);
         CornerRadius = UDim.new(0,5);
         BackgroundTransparency = 1;
         ClipsDescendants = true;
@@ -344,7 +345,7 @@ function Library.Main(text : string)
         Position = UDim2.new(0,0,0.5,0);
         BorderSizePixel = 0;
         BackgroundTransparency = 1;
-        Image = "rbxassetid://10527391886";
+        Image = "rbxassetid://12173436761";
         ImageRectOffset = rectOffset or Vector2.new(0,0);
         ImageRectSize = rectSize or Vector2.new(0,0);
         ImageTransparency = 0;
