@@ -98,14 +98,14 @@ end
 ]]
 
 local defaulttheme = {
-    MainColor = Color3.fromRGB(35,35,40);
-    BrighterMainColor = Color3.fromRGB(40,40,45);
+    MainColor = Color3.fromRGB(35,30,30);
+    BrighterMainColor = Color3.fromRGB(40,35,35);
     IconsColor = Color3.fromRGB(100,100,120);
-    Accent = Color3.fromRGB(0,100,255);
+    Accent = Color3.fromRGB(255,0,100);
     DarkText = Color3.fromRGB(170,170,170);
     BrightText = Color3.fromRGB(145,145,145);
     Font = "Gotham";
-    SoundVolume = 0.5;
+    SoundVolume = 0.5
     HideKey = "LeftAlt"
 }
 
