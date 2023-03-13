@@ -98,15 +98,15 @@ end
 ]]
 
 local defaulttheme = {
-    MainColor = Color3.fromRGB(35,30,30);
-    BrighterMainColor = Color3.fromRGB(40,35,35);
+    MainColor = Color3.fromRGB(35,35,40);
+    BrighterMainColor = Color3.fromRGB(40,40,45);
     IconsColor = Color3.fromRGB(100,100,120);
-    Accent = Color3.fromRGB(255,0,100);
+    Accent = Color3.fromRGB(0,100,255);
     DarkText = Color3.fromRGB(170,170,170);
     BrightText = Color3.fromRGB(145,145,145);
     Font = "Gotham";
     SoundVolume = 0.5;
-    HideKey = "v"
+    HideKey = "V"
 }
 
 local Library = {
@@ -158,7 +158,7 @@ function Library.Main(text : string)
         Position = UDim2.new(1,-55,0,0);
         BorderSizePixel = 0;
         BackgroundTransparency = 1;
-        Image = "rbxassetid://12173436761";
+        Image = "rbxassetid://10587654910";
         ImageTransparency = 0;
         ImageColor3 = Color3.fromRGB(255,255,255);
         ScaleType = Enum.ScaleType["Crop"];
@@ -196,7 +196,7 @@ function Library.Main(text : string)
             Position = UDim2.new(0.5,0,0.5,0);
             BorderSizePixel = 0;
             BackgroundTransparency = 1;
-            Image = "rbxassetid://12173436761";
+            Image = "rbxassetid://10562470318";
             ImageTransparency = 1;
             ImageColor3 = Color3.fromRGB(255,255,255);
             ScaleType = Enum.ScaleType["Crop"];
@@ -263,8 +263,8 @@ function Library.Main(text : string)
     OnEffect.Name = "OnEffect"
     OnEffect.Parent = Main
     OnEffect.Volume = Library["theme"]["SoundVolume"]
-    OnEffect.SoundId = "http://www.roblox.com/asset/?id=3779053277" 
-    OnEffect:Play(1) 
+    OnEffect.SoundId = "http://www.roblox.com/asset/?id=8745692251" 
+    OnEffect:Play() 
 
 
     local Pages = make("Frame",{
@@ -273,7 +273,7 @@ function Library.Main(text : string)
         Position = UDim2.new(0,15,0,65);
         Size = UDim2.new(0.48,0,1,-75);
         BorderSizePixel = 0;
-        BackgroundColor3 = Color3.fromRGB(128,232,222);
+        BackgroundColor3 = Color3.fromRGB(195, 195, 250);
         CornerRadius = UDim.new(0,5);
         BackgroundTransparency = 1;
         ClipsDescendants = true;
@@ -344,7 +344,7 @@ function Library.Main(text : string)
         Position = UDim2.new(0,0,0.5,0);
         BorderSizePixel = 0;
         BackgroundTransparency = 1;
-        Image = "rbxassetid://12173436761";
+        Image = "rbxassetid://10527391886";
         ImageRectOffset = rectOffset or Vector2.new(0,0);
         ImageRectSize = rectSize or Vector2.new(0,0);
         ImageTransparency = 0;
